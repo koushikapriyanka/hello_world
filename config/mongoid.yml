@@ -5,6 +5,13 @@ development:
       options:
         server_selection_timeout: 5
 
+production:
+  clients:
+    default:
+      uri: mongodb+srv://admin:admin@clusterkp.st4vu.mongodb.net/hello_world_development?retryWrites=true&w=majority
+      options:
+        server_selection_timeout: 5
+
 
 #development:
 #  # Configure available database clients. (required)
